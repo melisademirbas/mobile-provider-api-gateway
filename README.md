@@ -10,7 +10,7 @@ Bu proje iki ana bileşenden oluşmaktadır:
 ## Özellikler
 
 - ✅ JWT Authentication
-- ✅ **Custom API Gateway** (Kendi yazdığımız middleware)
+- ✅ **Custom API Gateway** 
 - ✅ **Rate Limiting** (API Gateway'de - Custom Implementation)
 - ✅ SQL Server Database
 - ✅ Swagger Documentation
@@ -18,12 +18,12 @@ Bu proje iki ana bileşenden oluşmaktadır:
 
 ## Rate Limiting
 
-Rate limiting **Custom API Gateway'de** (kendi yazdığımız middleware) uygulanmıştır:
+Rate limiting **Custom API Gateway'de**  
 
 ### QueryBill Endpoint
 - **Limit**: 3 istek
 - **Period**: 1 gün (86400 saniye)
-- **Client Identification**: SubscriberNo (JWT token'dan veya path'den alınır)
+- **Client Identification**: SubscriberNo (JWT token'dan almak için ayarladım)
 
 ### Diğer Endpoint'ler
 - **Limit**: 5 istek
